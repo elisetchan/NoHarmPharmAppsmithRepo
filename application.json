@@ -1,8 +1,20 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Student1_edit_list",
       "isDefault": true
+    },
+    {
+      "id": "Student2_edit_notes",
+      "isDefault": false
+    },
+    {
+      "id": "Pharmacist1_pt_info",
+      "isDefault": false
+    },
+    {
+      "id": "Pharmacist2_interactions",
+      "isDefault": false
     }
   ],
   "viewMode": false,
