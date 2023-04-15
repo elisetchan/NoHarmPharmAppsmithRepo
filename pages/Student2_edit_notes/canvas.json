@@ -123,6 +123,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{add_notes.run(() => showAlert('yay','success'), () => showAlert('boo','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -135,7 +136,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 45,
                       "dynamicBindingPathList": [
                         {
@@ -160,10 +165,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 30,
+                      "originalTopRow": 29,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 34,
+                      "originalBottomRow": 33,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -171,6 +176,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button3",
+                      "onClick": "{{get_notes.run(() => showAlert('yay','success'), () => showAlert('boo','error'))}}",
                       "buttonColor": "#4ade80",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -185,7 +191,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 12.2119140625,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 26,
                       "dynamicBindingPathList": [
                         {
@@ -214,7 +224,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Select1",
+                      "widgetName": "list_name",
                       "isFilterable": true,
                       "displayName": "Select",
                       "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
@@ -281,7 +291,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1",
+                      "widgetName": "new_notes",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -344,6 +354,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button4",
+                      "onClick": "{{delete_notes.run(() => showAlert('yay','success'), () => showAlert('boo','error'))}}",
                       "buttonColor": "#dc2626",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -358,7 +369,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 12.2119140625,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 3,
                       "dynamicBindingPathList": [
                         {
@@ -380,10 +395,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 30,
+                      "originalTopRow": 29,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 34,
+                      "originalBottomRow": 33,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
