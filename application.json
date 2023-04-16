@@ -15,6 +15,10 @@
     {
       "id": "Pharmacist2_interactions",
       "isDefault": false
+    },
+    {
+      "id": "Pharmacist_add_pt_drug",
+      "isDefault": false
     }
   ],
   "viewMode": false,
