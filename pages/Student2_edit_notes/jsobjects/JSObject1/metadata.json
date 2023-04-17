@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Student2_edit_notes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Student2_edit_notes_JSObject1",
+  "deleted": false,
+  "gitSyncId": "643af66ea515be7aa30569dc_643dd7c4dfe58143bb635a90"
+}
