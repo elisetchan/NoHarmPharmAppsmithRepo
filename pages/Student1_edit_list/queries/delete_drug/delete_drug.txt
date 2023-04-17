@@ -1,1 +1,1 @@
-{{deletion_name.data}}
+{{study_list.data}}

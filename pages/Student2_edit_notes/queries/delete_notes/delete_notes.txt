@@ -1,1 +1,1 @@
-{{new_notes.data}}
+{{study_notes.data}}
