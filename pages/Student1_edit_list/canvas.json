@@ -29,7 +29,7 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
-              "widgetName": "Form1",
+              "widgetName": "study_list",
               "isCanvas": true,
               "displayName": "Form",
               "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
@@ -236,7 +236,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 13.5302734375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onTextChanged"
+                        }
+                      ],
                       "resetOnSubmit": true,
                       "leftColumn": 5,
                       "dynamicBindingPathList": [
@@ -254,6 +258,7 @@
                       "key": "k3bsntu0um",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
+                      "onTextChanged": "{{storeValue()}}",
                       "isDeprecated": false,
                       "rightColumn": 25,
                       "dynamicHeight": "FIXED",
@@ -292,7 +297,7 @@
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
                       "hideCard": false,
-                      "defaultOptionValue": "GREEN",
+                      "defaultOptionValue": "",
                       "animateLoading": true,
                       "parentColumnSpace": 13.5302734375,
                       "dynamicTriggerPathList": [],
@@ -303,10 +308,13 @@
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "options"
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+                      "options": "{{get_study_list.data}}",
                       "placeholderText": "Select option",
                       "isDisabled": false,
                       "key": "loc8wxlohp",
@@ -363,12 +371,23 @@
               "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 29,
+              "originalBottomRow": 71,
               "minDynamicHeight": 10
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Student1_edit_list_get_study_list",
+              "name": "get_study_list",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Student1_edit_list",
