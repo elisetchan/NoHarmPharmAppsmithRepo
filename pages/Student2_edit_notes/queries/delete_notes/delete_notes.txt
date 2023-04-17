@@ -1,1 +1,3 @@
-{{study_notes.data}}
+{
+	"list_name" : {{new_notes.text}}
+}

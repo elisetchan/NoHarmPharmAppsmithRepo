@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{study_notes.data}}",
+      "body": "{\n\t\"list_name\" : {{new_notes.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
@@ -53,7 +53,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "study_notes.data"
+      "new_notes.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
