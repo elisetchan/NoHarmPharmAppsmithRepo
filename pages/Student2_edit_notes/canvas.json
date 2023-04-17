@@ -308,6 +308,9 @@
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
                         }
                       ],
                       "labelPosition": "Top",
@@ -337,7 +340,7 @@
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 27,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "{{get_notes.data.find(x => x.label == list_name.selectedOptionLabel).value}}",
                       "minDynamicHeight": 4
                     },
                     {
@@ -438,9 +441,7 @@
               "name": "get_notes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "list_name.data"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

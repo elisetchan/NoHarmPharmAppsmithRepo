@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{study_notes.data}}",
+      "body": "{\n\t\"drug_name\" : {{list_name.selectedOptionLabel}},\n\t\"new_notes\" : {{new_notes.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -53,7 +53,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "study_notes.data"
+      "list_name.selectedOptionLabel",
+      "new_notes.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
