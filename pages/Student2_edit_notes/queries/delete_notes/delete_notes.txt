@@ -1,3 +1,3 @@
 {
-	"list_name" : {{new_notes.text}}
+	"list_name" : {{list_name.selectedOptionLabel}}
 }
