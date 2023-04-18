@@ -207,12 +207,17 @@
                         "Phone"
                       ],
                       "dynamicPropertyPathList": [],
+                      "compactMode": "TALL",
                       "displayName": "Table",
                       "bottomRow": 44,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
-                        "status": 85
+                        "status": 85,
+                        "FirstName": 201,
+                        "LastName": 199,
+                        "DOB": 261,
+                        "Email": 200
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -354,7 +359,7 @@
                       "key": "qvs4uf7ejj",
                       "canFreezeColumn": true,
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 54,
                       "textSize": "0.875rem",
                       "widgetId": "uqw6pj6vwo",
                       "minWidth": 450,
@@ -403,7 +408,7 @@
               "originalTopRow": 5,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 52,
+              "originalBottomRow": 51,
               "minDynamicHeight": 10
             }
           ]
