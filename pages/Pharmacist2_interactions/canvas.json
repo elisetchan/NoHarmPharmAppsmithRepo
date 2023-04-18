@@ -125,7 +125,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{get_warnings.run(() => storeValue('warnings',get_warnings.data), () => postWindowMessage('Error', 'window', '*'))}}",
+                      "onClick": "{{get_warnings.run(() => storeValue('warnings',get_warnings.data), () => showAlert('Drug Name invalid','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",

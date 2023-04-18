@@ -300,7 +300,14 @@
                       "defaultOptionValue": "",
                       "animateLoading": true,
                       "parentColumnSpace": 13.5302734375,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDropdownOpen"
+                        },
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
                       "leftColumn": 34,
                       "dynamicBindingPathList": [
                         {
@@ -329,12 +336,14 @@
                       "isVisible": true,
                       "version": 1,
                       "parentId": "qu9b7ncayt",
+                      "onDropdownOpen": "{{get_study_list.run()}}",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "onOptionChange": "",
                       "minDynamicHeight": 4
                     }
                   ],
@@ -371,7 +380,7 @@
               "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 71,
+              "originalBottomRow": 29,
               "minDynamicHeight": 10
             }
           ]

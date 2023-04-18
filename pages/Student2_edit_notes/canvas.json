@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 440,
+          "bottomRow": 420,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "group"
               ],
               "topRow": 7,
-              "bottomRow": 44,
+              "bottomRow": 42,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -57,7 +57,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 370,
+                  "bottomRow": 350,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -131,8 +131,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 31,
-                      "bottomRow": 35,
+                      "topRow": 29,
+                      "bottomRow": 33,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -165,10 +165,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 31,
+                      "originalTopRow": 29,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 35,
+                      "originalBottomRow": 33,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -320,7 +320,7 @@
                       "version": 2,
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 29,
+                      "originalBottomRow": 27,
                       "widgetName": "new_notes",
                       "displayName": "Input",
                       "searchTags": [
@@ -329,7 +329,7 @@
                         "number",
                         "textarea"
                       ],
-                      "bottomRow": 29,
+                      "bottomRow": 27,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "hideCard": false,
@@ -369,8 +369,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 31,
-                      "bottomRow": 35,
+                      "topRow": 29,
+                      "bottomRow": 33,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -402,10 +402,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 31,
+                      "originalTopRow": 29,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 35,
+                      "originalBottomRow": 33,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
@@ -443,7 +443,7 @@
               "originalTopRow": 7,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 44,
+              "originalBottomRow": 42,
               "minDynamicHeight": 10
             }
           ]
