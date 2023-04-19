@@ -409,7 +409,7 @@
                       "responsiveBehavior": "fill",
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "onOptionChange": "{{JSObject1.myFun1()}}",
+                      "onOptionChange": "{{JSObject1.myFun2()}}",
                       "minDynamicHeight": 4
                     }
                   ],
@@ -446,7 +446,7 @@
               "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 38,
+              "originalBottomRow": 37,
               "minDynamicHeight": 10
             },
             {
@@ -621,7 +621,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{get_drug_info.data[0].EdInfo}}",
+                      "text": "{{appsmith.store.drug_data[0].EdInfo}}",
                       "key": "h30u17pi7s",
                       "isDeprecated": false,
                       "rightColumn": 62,
@@ -738,18 +738,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Student1_edit_list_get_drug_info",
-              "name": "get_drug_info",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "view_drug.selectedOptionLabel"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
