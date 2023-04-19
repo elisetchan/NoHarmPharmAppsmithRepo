@@ -1,0 +1,4 @@
+{
+  "drug_name": {{list_name.selectedOptionLabel}},
+  "new_notes": {{new_notes.text}}
+}
