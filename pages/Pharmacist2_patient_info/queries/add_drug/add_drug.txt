@@ -1,0 +1,4 @@
+{
+	"MName" : {{medication_name.text}},
+	"Indication" : {{indication.text}}
+}

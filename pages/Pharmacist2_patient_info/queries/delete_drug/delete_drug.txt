@@ -1,0 +1,3 @@
+{
+	"MName" : {{List1.triggeredItem.MName}}
+}
