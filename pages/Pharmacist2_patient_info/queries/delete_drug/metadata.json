@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/patients/acramond6v/drugs"
+        "url": "web:4000/p/patients/hpetre1w/drugs"
       },
       "invalids": [],
       "messages": [],

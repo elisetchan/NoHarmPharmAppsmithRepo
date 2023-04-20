@@ -311,7 +311,7 @@
                       "isCanvas": true,
                       "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
                       "topRow": 22,
-                      "pageSize": 2,
+                      "pageSize": 3,
                       "type": "LIST_WIDGET_V2",
                       "itemSpacing": 8,
                       "animateLoading": true,
@@ -664,7 +664,7 @@
                 "notification"
               ],
               "topRow": 0,
-              "bottomRow": 24,
+              "bottomRow": 240,
               "parentRowSpace": 1,
               "type": "MODAL_WIDGET",
               "hideCard": false,

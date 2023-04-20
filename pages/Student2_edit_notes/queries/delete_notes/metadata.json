@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/students/nbourdon4/notes"
+        "url": "web:4000/s/students/rroslingz/notes"
       },
       "invalids": [],
       "messages": [],
